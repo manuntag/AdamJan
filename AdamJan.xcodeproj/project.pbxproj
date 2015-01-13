@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A43968C1A65C94E00BCAB34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A43968B1A65C94E00BCAB34 /* main.m */; };
+		8A4396941A65C98000BCAB34 /* Adam.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4396931A65C98000BCAB34 /* Adam.m */; };
+		8A4396961A65C99C00BCAB34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4396951A65C99C00BCAB34 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		8A4396881A65C94E00BCAB34 /* AdamJan */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdamJan; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A43968B1A65C94E00BCAB34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A4396921A65C98000BCAB34 /* Adam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adam.h; sourceTree = "<group>"; };
+		8A4396931A65C98000BCAB34 /* Adam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adam.m; sourceTree = "<group>"; };
+		8A4396951A65C99C00BCAB34 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		8A43968A1A65C94E00BCAB34 /* AdamJan */ = {
 			isa = PBXGroup;
 			children = (
-				8A43968B1A65C94E00BCAB34 /* main.m */,
+				8A4396951A65C99C00BCAB34 /* main.m */,
+				8A4396921A65C98000BCAB34 /* Adam.h */,
+				8A4396931A65C98000BCAB34 /* Adam.m */,
 			);
 			path = AdamJan;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A43968C1A65C94E00BCAB34 /* main.m in Sources */,
+				8A4396961A65C99C00BCAB34 /* main.m in Sources */,
+				8A4396941A65C98000BCAB34 /* Adam.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
